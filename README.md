@@ -49,7 +49,7 @@ Create a new project in the atmel studio and copy all files in the <a href="http
 
 ## Step2 : Build your project
 
-After you have built it , a .hex file will be created in your project's folder. This is the only thing you need to program your avr in the proteus.
+After you have built it , a <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/Debug/Calculator.hex">`Calculator.hex`</a> file will be created in your project's folder. This is the only thing you need to program your avr in the proteus.
 
 
 ## Step3 : Create your circuit
