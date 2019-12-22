@@ -71,13 +71,13 @@ To ptogram your microcontroler in the proteus , just double click on it and choo
 
 
 ## **Files**
-- <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/">`/Calculator`</a> : This is the main folder consists of :
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/std_types.h">`std_types.h`</a> : Contains new types of standards data types
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/calculator_blocks.h">`calculator_blocks.h`</a> : Contains the configuarion you set to how much the calculator can handle number of operands,operation
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/calculator_blocks.c">`calculator_blocks.c`</a> : Contains the main work of the calculator as will be explain later
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/Calculator.c">`Calculator.c`</a> : the main of the application
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/lcd.c">`lcd.c`</a> : normal c driver
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/keypad.c">`keypad.c`</a> : normal c driver
+- <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/">`/Codes`</a> : This is the main folder consists of :
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/std_types.h">`std_types.h`</a> : Contains new types of standards data types
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.h">`calculator_blocks.h`</a> : Contains the configuarion you set to how much the calculator can handle number of operands,operation
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.c">`calculator_blocks.c`</a> : Contains the main work of the calculator as will be explain later
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/Calculator.c">`Calculator.c`</a> : the main of the application
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/lcd.c">`lcd.c`</a> : normal c driver
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/keypad.c">`keypad.c`</a> : normal c driver
 - <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator.pdsprj">`/Calculator.pdsprj`</a> : Simulation file using proteus
 - <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/LICENSE">`/LICENSE`</a> : The license of this project
 
