@@ -27,16 +27,14 @@ This is just a general explaintion of what you will see in the code but the code
 
 - `calculator.c` contains globel flag which can contain state of the program flow inside the code 
   in enum var as defined in calculator_blocks.h: 
-	enum StageFlag{Reset,StartPoint,AnalyzePoint,CalculatePoint,DisplayPoint,ErrorPoint};
+	`enum StageFlag{Reset,StartPoint,AnalyzePoint,CalculatePoint,DisplayPoint,ErrorPoint};`
   and by that i cannot move to the next stage until i complete the previous stage correctly with a flag is set to the next value when sucess. 
   
 - the next idea is that my ` uint8 KeyPad_getPressedKey(); ` returns one byte of data[0..9] 
 		but if the user enters 54578,how i convert it to valuable data to make operations on it? 
 		this is done using a simple math trick:
-    		* storing the keypad inputs in MyArr for instance
-    		* then taking the last element
-    			MYArr[len-1] + MyArr[len-2]*10 +..+MyArr[len-i]*PowerOf(10,i)= Valuable Number 
-    			to use( it's deciaml number of base 10 :) )
+    		* storing the keypad inputs in `MyArr` for instance
+    		* then taking the last element `MYArr[len-1] + MyArr[len-2]*10 +..+MyArr[len-i]*PowerOf(10,i)= Valuable Number` to use( it's deciaml number of base 10 :) )
     
 - When the application starts, i stored all the inputs coming from the user inside an array using `GetData();` then i analyze it using `Analyze()` and seperate the operands in another array and the operations as well.
 
