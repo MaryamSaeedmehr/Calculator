@@ -44,7 +44,7 @@ This is just a general explaintion of what you will see in the code but the code
 
 ## Step1 : Create the C code in Atmel Studio
 
-Create a new project in the atmel studio and copy all files in the <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator/">`/Calculator`</a> folder into your new project folder .
+Create a new project in the atmel studio and copy all files in the <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/">`/Calculator`</a> folder into your new project folder .
 
 
 ## Step2 : Build your project
