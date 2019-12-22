@@ -44,7 +44,7 @@ This is just a general explaintion of what you will see in the code but the code
 
 ## Step1 : Create the C code in Atmel Studio
 
-Create a new project in the atmel studio and copy all files in the <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/">`/Calculator`</a> folder into your new project folder .
+Create a new project in the atmel studio and copy all files in the <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/">`/Codes`</a> folder into your new project folder .
 
 
 ## Step2 : Build your project
@@ -72,12 +72,12 @@ To ptogram your microcontroler in the proteus , just double click on it and choo
 
 ## **Files**
 - <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/">`/Codes`</a> : This is the main folder consists of :
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/std_types.h">`std_types.h`</a> : Contains new types of standards data types
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.h">`calculator_blocks.h`</a> : Contains the configuarion you set to how much the calculator can handle number of operands,operation
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.c">`calculator_blocks.c`</a> : Contains the main work of the calculator as will be explain later
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/Calculator.c">`Calculator.c`</a> : the main of the application
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/lcd.c">`lcd.c`</a> : normal c driver
-    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/keypad.c">`keypad.c`</a> : normal c driver
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/SourceCodes/std_types.h">`/Codes/SourceCodes/std_types.h`</a> : Contains new types of standards data types
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.h">`/Codes/calculator_blocks.h`</a> : Contains the configuarion you set to how much the calculator can handle number of operands,operation
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/calculator_blocks.c">`/Codes/calculator_blocks.c`</a> : Contains the main work of the calculator as will be explain later
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/Calculator.c">`/Codes/Calculator.c`</a> : the main of the application
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/SourceCodes/lcd.c">`/Codes/SourceCodes/lcd.c`</a> : normal c driver
+    * <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Codes/SourceCodes/keypad.c">`/Codes/SourceCodes/keypad.c`</a> : normal c driver
 - <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/Calculator.pdsprj">`/Calculator.pdsprj`</a> : Simulation file using proteus
 - <a href="https://github.com/MaryamSaeedmehr/Calculator/blob/master/LICENSE">`/LICENSE`</a> : The license of this project
 
